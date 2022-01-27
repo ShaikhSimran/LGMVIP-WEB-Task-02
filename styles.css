@@ -1,0 +1,69 @@
+nav {
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(85.5, 43.9, 83.9);
+    color: #000;
+  }
+  .navitems {
+    display: flex;
+    align-items: center;
+    
+  }
+  .navitems h1 {
+    font-size: 30px;
+    color: rgba(218, 112, 214);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  .navitems button {
+    width: 25%;
+    height: 5vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 65%;
+    border: 4px solid transparent;
+    border-radius: 30px;
+    background: linear-gradient(to right, green, blue);
+    color: Yellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    
+    
+  }
+  .fetchbtn:hover {
+    background-color: rgba(213, 15, 61, 0.6);
+    color: rgb(24, 103, 221);
+  }
+  .userdatacontainer {
+    width: 100%;
+    height: fit-content;
+    background: #23074d;  
+    background: -webkit-linear-gradient(to right, #cc5333, #23074d); 
+    background: linear-gradient(to right, #cc5333, #23074d);
+  }
+  #main {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .name:hover {
+    color: rgb(86, 235, 202);
+  }
+
+  .profile_cont {
+    align-self: normal;
+    background-color: rgb(85.5, 43.9, 83.9);
+    color: white;
+    margin: 10px;
+    padding: 20px;
+    width: 22%;
+    border-radius: 20%;
+    text-align: center;
+    transition: transform ease 0.2s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 5vh;
+  }
+  
